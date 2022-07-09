@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Row from "./components/Row";
 import requests from './requests'
+import Navbar from "./components/Navbar";
 function App() {
 
 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <div className="bg-[#111]">
+      <Navbar />
       <Banner />
       <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />{" "}
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />{" "}

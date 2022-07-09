@@ -22,7 +22,7 @@
 
 @layer components {
   .movie_poster {
-    @apply w-full object-contain max-h-[100px] transition-transform duration-[450ms] cursor-pointer hover:scale-[1.08]
+    @apply w-full rounded-md object-contain max-h-[100px] transition-transform duration-[450ms] cursor-pointer hover:scale-[1.08]
   }
 
   .large_row {
