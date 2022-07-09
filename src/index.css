@@ -8,6 +8,14 @@
   display: none;
 }
 
+.banner--fadeBottom{
+ height: 7.4rem;
+ background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,12 +34,19 @@
   }
 
   .banner__contents {
-    @apply text-white ml-[30px] pt-[140px] h-[190px]
+    @apply text-white ml-[30px] pt-[130px] h-[190px]
   }
-  .banner__title{
-    @apply text-5xl font-bold pb-12
+
+  .banner__title {
+    @apply text-5xl font-bold pb-6
   }
-  .banner__description{
-    @apply w-[45rem] pt-4 text-sm max-w-[360px] h-20
+
+  .banner__description {
+    @apply w-[45rem] pt-4 text-base max-w-[360px] h-20 font-medium
   }
+
+  .banner__button {
+    @apply cursor-pointer text-white font-[700] outline-none border-none rounded-[0.2vw] px-8 py-2 mr-3 pt-2 bg-[#333333] opacity-50 hover:text-[#000] hover:bg-[#e6e6e6]
+  }
+  
 }

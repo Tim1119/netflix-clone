@@ -25,7 +25,7 @@ const Banner = () => {
 
   return (
     <header
-      className="banner"
+      className="banner backdrop-brightness-100 relative"
       style={{
         backgroundSize: "cover",
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
@@ -41,9 +41,12 @@ const Banner = () => {
           <button className="banner__button">My List</button>
         </div>
         <h1 className="banner__description">
-          {truncate(movie?.description, 150)}
+          {" "}
+          {truncate(movie?.overview, 150)}
         </h1>
       </div>
+      <div className="banner--fadeBottom"></div>
+
     </header>
   );
 };

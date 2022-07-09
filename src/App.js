@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div className="">
+    <div className="bg-[#111]">
       <Banner />
       <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />{" "}
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />{" "}

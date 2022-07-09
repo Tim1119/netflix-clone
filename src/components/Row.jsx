@@ -12,13 +12,13 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
       setMovies(request.data.results);
       return request;
     }
-    // fetchData();
+    fetchData();
   }, []);
 
   // console.table(movies);
 
   return (
-    <div className="ml-[20px] flex flex-col ">
+    <div className=" text-white ml-[20px] flex flex-col ">
       <h2 className="text-xl font-bold capitalize" >{title}</h2>
 
       <div className="movie_poster__scrollbar gap-3 flex overflow-y-hidden overflow-x-scroll p-[20px]">
