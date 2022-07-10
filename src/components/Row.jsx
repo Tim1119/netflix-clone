@@ -18,7 +18,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     fetchData();
   }, [fetchUrl]);
 
-  // console.table(movies);
+  
 
   const opts = {
     height: "390",
