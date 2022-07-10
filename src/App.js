@@ -3,10 +3,7 @@ import Row from "./components/Row";
 import requests from './requests'
 import Navbar from "./components/Navbar";
 function App() {
-
-  console.log('KEY',requests.fetchNetflixOriginals)
-
-  
+ 
 
   return (
     <div className="bg-[#111]">
