@@ -6,7 +6,7 @@ function App() {
  
 
   return (
-    <div className="bg-[#111]">
+    <div className="bg-[#111] w-screen overflow-x-hidden">
       <Navbar />
       <Banner />
       <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />{" "}
