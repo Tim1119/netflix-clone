@@ -1,5 +1,5 @@
 # Netflix Clone using React Js
-I created a fully responsive Netflix clone using react.js and free tmdb api. It shows several genres and netflix trending movies. Users can also view the trailer of the movie if it available. The link to the website is https://netflix-clone-b3190.web.app/
+I created a fully responsive Netflix clone using react.js,firebase and free tmdb api. It shows several genres and netflix trending movies. Users can also view the trailer of the movie if it available. The link to the website is https://netflix-clone-b3190.web.app/
 
 
 
