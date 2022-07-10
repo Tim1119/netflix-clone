@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
   return (
-    <div className={`${show && "bg-black"} w-screen transition-all duration-[0.5s] ease-in flex items-center fixed  top-0 h-[60px] z-10 justify-between w-full p-[20px]`}>
+    <div className={`${show && "bg-black"} transition-all duration-[0.5s] ease-in flex items-center fixed  top-0 h-[60px] z-10 justify-between w-full p-[20px]`}>
         <img src="https://rb.gy/ulxxee"  className='w-[80px] cursor-pointer object-contain' alt="netflix-logo"  />
         <img src="https://rb.gy/g1pwyx" className='w-[26px] cursor-pointer object-contain' alt="nav-icon"  />
     </div>
